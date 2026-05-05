@@ -3,9 +3,11 @@ using UnityEngine.InputSystem;
 
 public class KeyboardInput : MonoBehaviour
 {
+    public LegPlacer LegPlacer;
     public Rod Rod;
     
-
+    private Vector2 aimDirection = Vector2.up;
+    
     void Update()
     {
         Keyboard keyboard = Keyboard.current;
@@ -28,6 +30,11 @@ public class KeyboardInput : MonoBehaviour
         if (keyboard.dKey.isPressed)
         {
             Rod.Move(Vector2.right);
+        }
+
+        if (keyboard.spaceKey.wasPressedThisFrame)
+        {
+            LegPlacer.PlaceLeg(Rod.transform.position);
         }
     }
 }
