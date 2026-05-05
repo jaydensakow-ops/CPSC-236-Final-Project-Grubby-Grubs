@@ -4,6 +4,7 @@ using UnityEngine.InputSystem;
 public class KeyboardInput : MonoBehaviour
 {
     public Rod Rod;
+    public PegRotater PegRotater;
     
 
     void Update()
@@ -28,6 +29,11 @@ public class KeyboardInput : MonoBehaviour
         if (keyboard.dKey.isPressed)
         {
             Rod.Move(Vector2.right);
+        }
+        if (keyboard.spaceKey.wasPressedThisFrame)
+        {
+            PegRotater.RotatePeg();
+
         }
     }
 }
