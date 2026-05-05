@@ -6,6 +6,7 @@ TagManager:
   tags:
   - LongWall
   - ShortWall
+  - Ball
   layers:
   - Default
   - TransparentFX
