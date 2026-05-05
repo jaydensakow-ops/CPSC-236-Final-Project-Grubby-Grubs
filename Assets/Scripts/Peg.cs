@@ -11,10 +11,12 @@ public class Peg : MonoBehaviour
 
     public void Start()
     {
-        spriteRenderer = GetComponent<SpriteRenderer>();
-        spriteRenderer.sprite = Sprites[currentSpriteNumber];
+        //spriteRenderer = GetComponent<SpriteRenderer>();
+        //spriteRenderer.sprite = Sprites[currentSpriteNumber];
     }
     
+    
+    /*
     private void SpawnRingParticle()
     {
         Instantiate(RingParticlePrefab, transform.position, Quaternion.identity);
@@ -32,4 +34,5 @@ public class Peg : MonoBehaviour
             return true;
         return false;
     }
+    */
 }
