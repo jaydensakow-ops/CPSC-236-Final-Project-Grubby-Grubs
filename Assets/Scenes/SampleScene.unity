@@ -417,7 +417,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96624f7e36eee465797c2a2a281c71b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Launcher
-  ProjectilePrefab: {fileID: 3626164923269250624, guid: 20750e99db19c458f9b5f64186610693, type: 3}
+  ProjectilePrefab: {fileID: 9136893911117464382, guid: 20750e99db19c458f9b5f64186610693, type: 3}
   ProjectileSpawnPoint: {fileID: 1194715313}
 --- !u!114 &114950748
 MonoBehaviour:
