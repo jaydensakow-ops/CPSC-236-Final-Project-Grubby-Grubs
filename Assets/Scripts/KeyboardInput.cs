@@ -22,16 +22,6 @@ public class KeyboardInput : MonoBehaviour
             Rod.Move(Vector2.down);
         }
 
-        if (keyboard.aKey.isPressed)
-        {
-            Rod.Move(Vector2.left);
-        }
-
-        if (keyboard.dKey.isPressed)
-        {
-            Rod.Move(Vector2.right);
-        }
-
         if (keyboard.spaceKey.wasPressedThisFrame)
         {
             LegPlacer.PlaceLeg(Rod.transform.position);
