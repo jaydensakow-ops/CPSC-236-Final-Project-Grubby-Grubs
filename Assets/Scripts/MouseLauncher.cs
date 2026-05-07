@@ -27,7 +27,7 @@ public class MouseLauncher : MonoBehaviour
         //Sounds.PlayCannonSound();
 
         // Launch in that direction
-        Launcher.Launch(aimDirection);
+        //Launcher.Launch(aimDirection);
     }
 
     private Vector2 GetAimDirection()
