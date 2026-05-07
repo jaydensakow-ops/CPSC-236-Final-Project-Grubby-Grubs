@@ -5,9 +5,9 @@ using UnityEngine.InputSystem;
 public class Launcher : MonoBehaviour
 {
     public GameObject ballPrefab;
-    public float minLaunchForce = 3f;
-    public float maxLaunchForce = 10f;
-    public float kickoffDelay = 1.5f;
+    public float minLaunchForce = GameParameters.minLaunchForce;
+    public float maxLaunchForce = GameParameters.maxLaunchForce;
+    public float kickoffDelay = GameParameters.kickoffDelay;
 
     private GameObject activeBall;
     private bool canKickoff = false;
