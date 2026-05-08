@@ -8,6 +8,7 @@ public class KeyboardInput : MonoBehaviour
     public Rod Rod2;
     public Rod Rod3;
     public Rod Rod4;
+    public Attack Attack;
     
     private Vector2 aimDirection = Vector2.up;
     
@@ -43,6 +44,15 @@ public class KeyboardInput : MonoBehaviour
         {
             LegPlacer.PlaceLeg(Rod1.transform.position);
             LegPlacer.PlaceLeg(Rod2.transform.position);
+        }
+
+        if (keyboard.shiftKey.wasPressedThisFrame)
+        {
+            Attack.Animate();
+        }
+        else
+        {
+            Attack.StopAnimate();
         }
     }
 }
