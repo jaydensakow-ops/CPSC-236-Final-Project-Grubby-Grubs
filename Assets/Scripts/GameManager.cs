@@ -4,18 +4,27 @@ using TMPro;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
-
+    
+    public TMP_Text winText;
     public TMP_Text leftText;
     public TMP_Text rightText;
+    
+    public CanvasGroup StartScreenCanvasGroup;
+    public GameObject winPanel;
+    
 
-    public GameObject win;
-
-    public int winScore = 5;
+    public int winScore = 1;
     private bool gameEnded = false;
 
     private void Awake()
     {
         Instance = this;
+    }
+
+    public void ResetUI()
+    {
+        winPanel.SetActive(false);
+        CanvasGroupDisplayer.Hide(StartScreenCanvasGroup);
     }
 
     public void LeftPlayerScored()
@@ -51,18 +60,42 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    void EndGame()
-    {
-        gameEnded = true;
-        win.SetActive(true);
-    }
-
     public void StartNewGame()
     {
-        gameEnded = false;
-        win.SetActive(false);
+        StartGame();
+        
+    }
 
+    public void StartGame()
+    {
+        gameEnded = false;
         ScoreKeeper.ResetScore();
         UpdateScoreUI();
+        
+        ResetUI();
+        
     }
+
+    public void PlayAgain()
+    {
+        StartGame();
+    }
+    
+
+    public void EndGame()
+    {
+        gameEnded = true;
+        winPanel.SetActive(true);
+
+        if (ScoreKeeper.GetLeftScore() >= winScore)
+        {
+            winText.text = "Player 1 Wins!";
+        }
+        else
+        {
+            winText.text = "Player 2 Wins!";
+        }
+        
+    }
+    
 }
