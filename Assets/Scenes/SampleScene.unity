@@ -181,6 +181,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4607791739221236608, guid: 3671d67b1d4da4d93bd4caba8a45405c, type: 3}
   m_PrefabInstance: {fileID: 10477776}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &38393835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 38393834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07d528971823e450fbdb998d056b014e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameManager
+  winText: {fileID: 2086517660}
+  leftText: {fileID: 53460276}
+  rightText: {fileID: 837025025}
+  StartScreenCanvasGroup: {fileID: 1434610211}
+  winPanel: {fileID: 621284877}
+  Launcher: {fileID: 1862807590}
+  winScore: 1
 --- !u!1 &93048604
 GameObject:
   m_ObjectHideFlags: 0
@@ -781,6 +800,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8dc8d41e626844bfbf50f9e53675b72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Goal
+  Sounds: {fileID: 1388992698}
   launcher: {fileID: 1862807590}
 --- !u!61 &471539118
 BoxCollider2D:
@@ -2462,6 +2482,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8dc8d41e626844bfbf50f9e53675b72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Goal
+  Sounds: {fileID: 1388992698}
   launcher: {fileID: 1862807590}
 --- !u!61 &921796165
 BoxCollider2D:
@@ -3942,14 +3963,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 865815123}
     m_Modifications:
     - target: {fileID: 1494424852694689612, guid: 4517d38afec8f47d1b2693c01f1e4375, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 1494424852694689612, guid: 4517d38afec8f47d1b2693c01f1e4375, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.12
-      objectReference: {fileID: 0}
-    - target: {fileID: 1494424852694689612, guid: 4517d38afec8f47d1b2693c01f1e4375, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -4158,6 +4171,7 @@ MonoBehaviour:
   minLaunchForce: 3
   maxLaunchForce: 10
   kickoffDelay: 1.5
+  Sounds: {fileID: 1388992698}
 --- !u!4 &1862807591
 Transform:
   m_ObjectHideFlags: 0
