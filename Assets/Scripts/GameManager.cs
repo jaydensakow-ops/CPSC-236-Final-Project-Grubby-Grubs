@@ -11,7 +11,8 @@ public class GameManager : MonoBehaviour
     
     public CanvasGroup StartScreenCanvasGroup;
     public GameObject winPanel;
-    
+
+    public Launcher Launcher;
 
     public int winScore = 1;
     private bool gameEnded = false;
@@ -73,7 +74,7 @@ public class GameManager : MonoBehaviour
         UpdateScoreUI();
         
         ResetUI();
-        
+        Launcher.OnGoal();
     }
 
     public void PlayAgain()

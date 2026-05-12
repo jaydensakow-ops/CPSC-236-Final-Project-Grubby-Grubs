@@ -8,14 +8,11 @@ public class Launcher : MonoBehaviour
     public float minLaunchForce = GameParameters.minLaunchForce;
     public float maxLaunchForce = GameParameters.maxLaunchForce;
     public float kickoffDelay = GameParameters.kickoffDelay;
+    public Sounds Sounds;
 
     private GameObject activeBall;
     private bool canKickoff = false;
     
-    void Start()
-    {
-        StartCoroutine(KickoffDelay()); // Delay before very first kickoff too
-    }
     void Update()
     {
         if (canKickoff && Mouse.current.leftButton.wasPressedThisFrame)
@@ -43,6 +40,7 @@ public class Launcher : MonoBehaviour
     private void SpawnBall()
     {
         canKickoff = false;
+        Sounds.PlayWhistleSound();
 
         activeBall = Instantiate(ballPrefab, Vector2.zero, Quaternion.identity);
 
