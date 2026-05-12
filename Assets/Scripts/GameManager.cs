@@ -11,7 +11,7 @@ public class GameManager : MonoBehaviour
     
     public CanvasGroup StartScreenCanvasGroup;
     public GameObject winPanel;
-
+    
     public Launcher Launcher;
 
     public int winScore = 1;

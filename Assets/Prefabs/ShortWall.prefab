@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: -4462628600089468701}
   m_Layer: 0
   m_Name: ShortWall
-  m_TagString: ShortWall
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

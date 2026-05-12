@@ -5,6 +5,10 @@ public static class GameParameters
     public static float RodMoveSpeed = 5f;
     public static float minimumYRodDistance = -2.95f;
     public static float maximumYRodDistance = 2.95f;
+
+    public static float SmokebombSecondsOnScreen = 10f;
+    public static float SmokebombMinimumSecondsToWait = 1f;
+    public static float SmokebombSecondsToWait = 4f;
     
     public static float minLaunchForce = 3f;
     public static float maxLaunchForce = 10f;
