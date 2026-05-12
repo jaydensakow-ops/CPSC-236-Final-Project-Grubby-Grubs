@@ -6987,7 +6987,7 @@ MonoBehaviour:
   minLaunchForce: 3
   maxLaunchForce: 10
   kickoffDelay: 1.5
-  Sounds: {fileID: 0}
+  Sounds: {fileID: 1388992698}
 --- !u!4 &1862807591
 Transform:
   m_ObjectHideFlags: 0
