@@ -15,6 +15,22 @@ public class Peg : MonoBehaviour
         //spriteRenderer.sprite = Sprites[currentSpriteNumber];
     }
     
+    /*
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Ball"))
+        {
+            Debug.Log("Hit");
+
+            ObjectHit hitScript = GetComponent<ObjectHit>();
+
+            if (hitScript != null)
+            {
+                hitScript.ApplyForce(other.gameObject, transform.position);
+            }
+        }
+    }
+    */
     
     /*
     private void SpawnRingParticle()
