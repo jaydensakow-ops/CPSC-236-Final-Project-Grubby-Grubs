@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class Goal : MonoBehaviour
 {
+    public Sounds Sounds;
     public Launcher launcher;
 
     public bool isLeftGoal;
@@ -11,6 +12,8 @@ public class Goal : MonoBehaviour
         if (other.CompareTag("Ball"))
         {
             Debug.Log("GOAL!!!");
+            Sounds.PlayPointsSound();
+            Sounds.PlayBallGoalSound();
 
             if (isLeftGoal)
             {
