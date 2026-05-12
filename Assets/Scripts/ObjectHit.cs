@@ -1,9 +1,12 @@
 using UnityEngine;
 
 public class ObjectHit : MonoBehaviour
+
 {
+    
     public float forceStrength = 10f; 
 
+    /*
     public void ApplyForce(GameObject target, Vector3 sourcePosition)
     {
         Rigidbody2D rb = target.GetComponent<Rigidbody2D>();
@@ -14,4 +17,5 @@ public class ObjectHit : MonoBehaviour
             rb.AddForce(direction * forceStrength, ForceMode2D.Impulse);
         }
     }
+    */
 }

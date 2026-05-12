@@ -15,6 +15,7 @@ public class Peg : MonoBehaviour
         //spriteRenderer.sprite = Sprites[currentSpriteNumber];
     }
     
+    /*
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Ball"))
@@ -29,7 +30,7 @@ public class Peg : MonoBehaviour
             }
         }
     }
-    
+    */
     
     /*
     private void SpawnRingParticle()

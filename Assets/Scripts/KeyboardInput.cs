@@ -8,7 +8,8 @@ public class KeyboardInput : MonoBehaviour
     public Rod Rod2;
     public Rod Rod3;
     public Rod Rod4;
-    public Attack Attack;
+    public Attack[] Attacks1;
+    public Attack[] Attacks2;
     
     private Vector2 aimDirection = Vector2.up;
     
@@ -46,13 +47,34 @@ public class KeyboardInput : MonoBehaviour
             LegPlacer.PlaceLeg(Rod2.transform.position);
         }
 
-        if (keyboard.shiftKey.wasPressedThisFrame)
+        if (keyboard.leftShiftKey.isPressed)
         {
-            Attack.Animate();
+            foreach (Attack attack in Attacks1)
+            {
+                attack.Animate();
+            }
         }
         else
         {
-            Attack.StopAnimate();
+            foreach (Attack attack in Attacks1)
+            {
+                attack.StopAnimate();
+            }
+        }
+        
+        if (keyboard.rightShiftKey.isPressed)
+        {
+            foreach (Attack attack in Attacks2)
+            {
+                attack.Animate();
+            }
+        }
+        else
+        {
+            foreach (Attack attack in Attacks2)
+            {
+                attack.StopAnimate();
+            }
         }
     }
 }
