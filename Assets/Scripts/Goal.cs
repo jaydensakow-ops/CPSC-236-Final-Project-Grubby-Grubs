@@ -20,7 +20,7 @@ public class Goal : MonoBehaviour
             {
                 GameManager.Instance.LeftPlayerScored();
             }
-
+            
             launcher.OnGoal();
         }
     }
