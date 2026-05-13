@@ -950,7 +950,7 @@ GameObject:
   - component: {fileID: 138630612}
   m_Layer: 0
   m_Name: PlayerOneRods
-  m_TagString: Untagged
+  m_TagString: BlueTeam
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1256,6 +1256,10 @@ PrefabInstance:
     - target: {fileID: 1900974484017381769, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: m_Name
       value: Peg
+      objectReference: {fileID: 0}
+    - target: {fileID: 1900974484017381769, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
+      propertyPath: m_TagString
+      value: BlueTeam
       objectReference: {fileID: 0}
     - target: {fileID: 3864732728907821309, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: m_Enabled
@@ -1697,6 +1701,10 @@ PrefabInstance:
     - target: {fileID: 1900974484017381769, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: m_Name
       value: Peg
+      objectReference: {fileID: 0}
+    - target: {fileID: 1900974484017381769, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
+      propertyPath: m_TagString
+      value: RedTeam
       objectReference: {fileID: 0}
     - target: {fileID: 3864732728907821309, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: m_Enabled
@@ -2230,7 +2238,7 @@ Transform:
   m_GameObject: {fileID: 471539116}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -17.04, y: 0, z: 0}
+  m_LocalPosition: {x: -21.51, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2866,6 +2874,10 @@ PrefabInstance:
     - target: {fileID: 1900974484017381769, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: m_Name
       value: Peg
+      objectReference: {fileID: 0}
+    - target: {fileID: 1900974484017381769, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
+      propertyPath: m_TagString
+      value: RedTeam
       objectReference: {fileID: 0}
     - target: {fileID: 3864732728907821309, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: m_Enabled
@@ -4018,6 +4030,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Peg (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1900974484017381769, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
+      propertyPath: m_TagString
+      value: BlueTeam
+      objectReference: {fileID: 0}
     - target: {fileID: 3864732728907821309, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -4211,6 +4227,10 @@ PrefabInstance:
     - target: {fileID: 1900974484017381769, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: m_Name
       value: Peg (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1900974484017381769, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
+      propertyPath: m_TagString
+      value: RedTeam
       objectReference: {fileID: 0}
     - target: {fileID: 3864732728907821309, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: m_Enabled
@@ -4950,7 +4970,7 @@ GameObject:
   - component: {fileID: 913413832}
   m_Layer: 0
   m_Name: PlayerTwoRods
-  m_TagString: Untagged
+  m_TagString: RedTeam
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5153,7 +5173,7 @@ Transform:
   m_GameObject: {fileID: 921796163}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 17.01, y: -0.2, z: 0}
+  m_LocalPosition: {x: 21.48, y: -0.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5359,6 +5379,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Peg
       objectReference: {fileID: 0}
+    - target: {fileID: 1900974484017381769, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
+      propertyPath: m_TagString
+      value: BlueTeam
+      objectReference: {fileID: 0}
     - target: {fileID: 3864732728907821309, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -5540,6 +5564,10 @@ PrefabInstance:
     - target: {fileID: 1900974484017381769, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: m_Name
       value: Peg (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1900974484017381769, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
+      propertyPath: m_TagString
+      value: RedTeam
       objectReference: {fileID: 0}
     - target: {fileID: 3864732728907821309, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: m_Enabled
@@ -6042,6 +6070,10 @@ PrefabInstance:
     - target: {fileID: 1900974484017381769, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: m_Name
       value: Peg
+      objectReference: {fileID: 0}
+    - target: {fileID: 1900974484017381769, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
+      propertyPath: m_TagString
+      value: RedTeam
       objectReference: {fileID: 0}
     - target: {fileID: 3864732728907821309, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: m_Enabled
@@ -6727,6 +6759,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Peg
       objectReference: {fileID: 0}
+    - target: {fileID: 1900974484017381769, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
+      propertyPath: m_TagString
+      value: BlueTeam
+      objectReference: {fileID: 0}
     - target: {fileID: 3864732728907821309, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -7059,6 +7095,10 @@ PrefabInstance:
     - target: {fileID: 1900974484017381769, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: m_Name
       value: Peg (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1900974484017381769, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
+      propertyPath: m_TagString
+      value: BlueTeam
       objectReference: {fileID: 0}
     - target: {fileID: 3864732728907821309, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: m_Enabled
@@ -7505,8 +7545,8 @@ MonoBehaviour:
   Rod2: {fileID: 1769816464}
   Rod3: {fileID: 61575073}
   Rod4: {fileID: 1784493894}
-  Rod5: {fileID: 0}
-  Rod6: {fileID: 0}
+  Rod5: {fileID: 154939621}
+  Rod6: {fileID: 2086176993}
   Attacks1: []
   Attacks2: []
 --- !u!1001 &1267548350
@@ -7598,6 +7638,10 @@ PrefabInstance:
     - target: {fileID: 1900974484017381769, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: m_Name
       value: Peg (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1900974484017381769, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
+      propertyPath: m_TagString
+      value: BlueTeam
       objectReference: {fileID: 0}
     - target: {fileID: 3864732728907821309, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: m_Enabled
@@ -7711,6 +7755,10 @@ PrefabInstance:
     - target: {fileID: 1900974484017381769, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: m_Name
       value: Peg (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1900974484017381769, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
+      propertyPath: m_TagString
+      value: RedTeam
       objectReference: {fileID: 0}
     - target: {fileID: 3864732728907821309, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: m_Enabled
@@ -9470,7 +9518,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1704682449
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9572,6 +9620,10 @@ PrefabInstance:
     - target: {fileID: 1900974484017381769, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: m_Name
       value: Peg (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1900974484017381769, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
+      propertyPath: m_TagString
+      value: RedTeam
       objectReference: {fileID: 0}
     - target: {fileID: 3864732728907821309, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: m_Enabled
@@ -9689,6 +9741,10 @@ PrefabInstance:
     - target: {fileID: 1900974484017381769, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: m_Name
       value: Peg (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1900974484017381769, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
+      propertyPath: m_TagString
+      value: BlueTeam
       objectReference: {fileID: 0}
     - target: {fileID: 3864732728907821309, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: m_Enabled
@@ -10880,6 +10936,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Peg (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1900974484017381769, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
+      propertyPath: m_TagString
+      value: BlueTeam
+      objectReference: {fileID: 0}
     - target: {fileID: 3864732728907821309, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -11241,6 +11301,10 @@ PrefabInstance:
     - target: {fileID: 1900974484017381769, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: m_Name
       value: Peg (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1900974484017381769, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
+      propertyPath: m_TagString
+      value: RedTeam
       objectReference: {fileID: 0}
     - target: {fileID: 3864732728907821309, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: m_Enabled

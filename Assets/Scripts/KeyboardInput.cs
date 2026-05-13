@@ -36,7 +36,7 @@ public class KeyboardInput : MonoBehaviour
         if (keyboard.upArrowKey.isPressed)
         {
             Rod4.Move(Vector2.up);
-            Rod5.Move(Vector2.up);
+            Rod5.Move(Vector2.up);  
             Rod6.Move(Vector2.up);
         }
 
