@@ -19,9 +19,4 @@ public class Rod : MonoBehaviour
 
         transform.position = newPosition;
     }
-
-    public Vector3 GetPosition()
-    {
-        return transform.position;
-    }
 }
