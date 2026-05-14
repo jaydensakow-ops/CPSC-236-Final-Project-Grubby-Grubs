@@ -433,7 +433,7 @@ MonoBehaviour:
   StartScreenCanvasGroup: {fileID: 1434610211}
   winPanel: {fileID: 621284877}
   Launcher: {fileID: 1862807590}
-  SmokebombPlacer: {fileID: 1862807592}
+  SmokebombPlacer: {fileID: 0}
   winScore: 5
 --- !u!4 &38393836
 Transform:
@@ -8630,7 +8630,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1434610208
 RectTransform:
   m_ObjectHideFlags: 0
