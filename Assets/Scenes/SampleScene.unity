@@ -1203,6 +1203,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6414943758964490915, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
   m_PrefabInstance: {fileID: 166016524}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &166016529 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 758097538392716049, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
+  m_PrefabInstance: {fileID: 166016524}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5bb06684d0bb408a8c422c663026b44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Attack
 --- !u!1 &171896562
 GameObject:
   m_ObjectHideFlags: 0
@@ -2195,8 +2206,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa7461129aca3470faeabf43ae09b752, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PegHit
-  PegLegPrefab: {fileID: 7456559418602031570, guid: 214af7d712731410eb50a08ec64fc705, type: 3}
-  ProjectileSpawnPoint: {fileID: 1526443852}
 --- !u!70 &483357441
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -2368,8 +2377,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa7461129aca3470faeabf43ae09b752, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PegHit
-  PegLegPrefab: {fileID: 7456559418602031570, guid: 214af7d712731410eb50a08ec64fc705, type: 3}
-  ProjectileSpawnPoint: {fileID: 1351238136}
 --- !u!70 &484320612
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -2855,8 +2862,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa7461129aca3470faeabf43ae09b752, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LegPlacer
-  PegLegPrefab: {fileID: 7456559418602031570, guid: 214af7d712731410eb50a08ec64fc705, type: 3}
-  ProjectileSpawnPoint: {fileID: 345005522}
 --- !u!4 &553561310
 Transform:
   m_ObjectHideFlags: 0
@@ -3074,8 +3079,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa7461129aca3470faeabf43ae09b752, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PegHit
-  PegLegPrefab: {fileID: 7456559418602031570, guid: 214af7d712731410eb50a08ec64fc705, type: 3}
-  ProjectileSpawnPoint: {fileID: 1429717553}
 --- !u!70 &604015843
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -3490,8 +3493,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa7461129aca3470faeabf43ae09b752, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PegHit
-  PegLegPrefab: {fileID: 7456559418602031570, guid: 214af7d712731410eb50a08ec64fc705, type: 3}
-  ProjectileSpawnPoint: {fileID: 345005522}
 --- !u!50 &645583897
 Rigidbody2D:
   serializedVersion: 5
@@ -3683,8 +3684,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa7461129aca3470faeabf43ae09b752, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PegHit
-  PegLegPrefab: {fileID: 7456559418602031570, guid: 214af7d712731410eb50a08ec64fc705, type: 3}
-  ProjectileSpawnPoint: {fileID: 1291109850}
 --- !u!70 &693540176
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -4174,6 +4173,28 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6414943758964490915, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
   m_PrefabInstance: {fileID: 809673037}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &809673042 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 758097538392716049, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
+  m_PrefabInstance: {fileID: 809673037}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5bb06684d0bb408a8c422c663026b44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Attack
+--- !u!114 &824259915 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 758097538392716049, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
+  m_PrefabInstance: {fileID: 547218227}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5bb06684d0bb408a8c422c663026b44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Attack
 --- !u!1 &832198783
 GameObject:
   m_ObjectHideFlags: 0
@@ -5789,8 +5810,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa7461129aca3470faeabf43ae09b752, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PegHit
-  PegLegPrefab: {fileID: 7456559418602031570, guid: 214af7d712731410eb50a08ec64fc705, type: 3}
-  ProjectileSpawnPoint: {fileID: 1741765940}
 --- !u!70 &1071030165
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -5962,8 +5981,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa7461129aca3470faeabf43ae09b752, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PegHit
-  PegLegPrefab: {fileID: 7456559418602031570, guid: 214af7d712731410eb50a08ec64fc705, type: 3}
-  ProjectileSpawnPoint: {fileID: 171896563}
 --- !u!70 &1071940400
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -6060,6 +6077,17 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1073691646 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 758097538392716049, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
+  m_PrefabInstance: {fileID: 795898834}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5bb06684d0bb408a8c422c663026b44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Attack
 --- !u!1001 &1081714600
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6150,6 +6178,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6414943758964490915, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
   m_PrefabInstance: {fileID: 1081714600}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1081714605 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 758097538392716049, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
+  m_PrefabInstance: {fileID: 1081714600}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5bb06684d0bb408a8c422c663026b44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Attack
 --- !u!1001 &1089345049
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6868,8 +6907,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa7461129aca3470faeabf43ae09b752, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PegHit
-  PegLegPrefab: {fileID: 7456559418602031570, guid: 214af7d712731410eb50a08ec64fc705, type: 3}
-  ProjectileSpawnPoint: {fileID: 777058011}
 --- !u!70 &1232023931
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -7126,6 +7163,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6414943758964490915, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
   m_PrefabInstance: {fileID: 1237937606}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1237937611 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 758097538392716049, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
+  m_PrefabInstance: {fileID: 1237937606}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5bb06684d0bb408a8c422c663026b44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Attack
 --- !u!1 &1240637202
 GameObject:
   m_ObjectHideFlags: 0
@@ -7293,8 +7341,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa7461129aca3470faeabf43ae09b752, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PegHit
-  PegLegPrefab: {fileID: 7456559418602031570, guid: 214af7d712731410eb50a08ec64fc705, type: 3}
-  ProjectileSpawnPoint: {fileID: 100892184}
 --- !u!70 &1246420182
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -7507,8 +7553,24 @@ MonoBehaviour:
   Rod4: {fileID: 1784493894}
   Rod5: {fileID: 154939621}
   Rod6: {fileID: 2086176993}
-  Attacks1: []
-  Attacks2: []
+  Attacks1:
+  - {fileID: 2110567001}
+  - {fileID: 1073691646}
+  - {fileID: 1555324422}
+  - {fileID: 1432192375}
+  - {fileID: 1765570474}
+  - {fileID: 1237937611}
+  - {fileID: 166016529}
+  - {fileID: 1968110112}
+  Attacks2:
+  - {fileID: 824259915}
+  - {fileID: 1980180259}
+  - {fileID: 1328616062}
+  - {fileID: 1494275252}
+  - {fileID: 1864630502}
+  - {fileID: 809673042}
+  - {fileID: 1081714605}
+  - {fileID: 1713290837}
 --- !u!1001 &1267548350
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7786,6 +7848,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6414943758964490915, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
   m_PrefabInstance: {fileID: 1328616057}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1328616062 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 758097538392716049, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
+  m_PrefabInstance: {fileID: 1328616057}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5bb06684d0bb408a8c422c663026b44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Attack
 --- !u!1001 &1339222755
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8487,6 +8560,17 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1432192375 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 758097538392716049, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
+  m_PrefabInstance: {fileID: 1217741452}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5bb06684d0bb408a8c422c663026b44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Attack
 --- !u!1 &1434610207
 GameObject:
   m_ObjectHideFlags: 0
@@ -8915,6 +8999,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1494424852694689612, guid: 4517d38afec8f47d1b2693c01f1e4375, type: 3}
   m_PrefabInstance: {fileID: 1492629013}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1494275252 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 758097538392716049, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
+  m_PrefabInstance: {fileID: 341928555}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5bb06684d0bb408a8c422c663026b44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Attack
 --- !u!1001 &1504778682
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9108,6 +9203,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6414943758964490915, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
   m_PrefabInstance: {fileID: 1539904364}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1555324422 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 758097538392716049, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
+  m_PrefabInstance: {fileID: 1287834038}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5bb06684d0bb408a8c422c663026b44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Attack
 --- !u!1001 &1576660582
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9651,6 +9757,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6414943758964490915, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
   m_PrefabInstance: {fileID: 1713290832}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1713290837 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 758097538392716049, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
+  m_PrefabInstance: {fileID: 1713290832}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5bb06684d0bb408a8c422c663026b44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Attack
 --- !u!1 &1741765939
 GameObject:
   m_ObjectHideFlags: 0
@@ -9772,6 +9889,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6414943758964490915, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
   m_PrefabInstance: {fileID: 1765570469}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1765570474 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 758097538392716049, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
+  m_PrefabInstance: {fileID: 1765570469}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5bb06684d0bb408a8c422c663026b44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Attack
 --- !u!1 &1769816462
 GameObject:
   m_ObjectHideFlags: 0
@@ -10523,6 +10651,17 @@ MonoBehaviour:
   Prefab: {fileID: 6526869714292390976, guid: 0ac3f8f5499b949a48bbfbdcd9df02d8, type: 3}
   minimumSecondsToWait: 0
   maximumSecondsToWait: 0
+--- !u!114 &1864630502 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 758097538392716049, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
+  m_PrefabInstance: {fileID: 1032520714}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5bb06684d0bb408a8c422c663026b44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Attack
 --- !u!1001 &1869877706
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10798,8 +10937,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa7461129aca3470faeabf43ae09b752, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PegHit
-  PegLegPrefab: {fileID: 7456559418602031570, guid: 214af7d712731410eb50a08ec64fc705, type: 3}
-  ProjectileSpawnPoint: {fileID: 1419508762}
 --- !u!70 &1952310309
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -10982,6 +11119,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6414943758964490915, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
   m_PrefabInstance: {fileID: 1968110107}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1968110112 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 758097538392716049, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
+  m_PrefabInstance: {fileID: 1968110107}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5bb06684d0bb408a8c422c663026b44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Attack
 --- !u!1 &1969282411
 GameObject:
   m_ObjectHideFlags: 0
@@ -11348,6 +11496,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6414943758964490915, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
   m_PrefabInstance: {fileID: 1980180254}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1980180259 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 758097538392716049, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
+  m_PrefabInstance: {fileID: 1980180254}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5bb06684d0bb408a8c422c663026b44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Attack
 --- !u!1 &1985337544
 GameObject:
   m_ObjectHideFlags: 0
@@ -11423,8 +11582,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa7461129aca3470faeabf43ae09b752, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PegHit
-  PegLegPrefab: {fileID: 7456559418602031570, guid: 214af7d712731410eb50a08ec64fc705, type: 3}
-  ProjectileSpawnPoint: {fileID: 2057590109}
 --- !u!70 &1985337548
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -11596,8 +11753,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa7461129aca3470faeabf43ae09b752, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PegHit
-  PegLegPrefab: {fileID: 7456559418602031570, guid: 214af7d712731410eb50a08ec64fc705, type: 3}
-  ProjectileSpawnPoint: {fileID: 1807479764}
 --- !u!70 &1997213246
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -12433,6 +12588,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2086517658}
   m_CullTransparentMesh: 1
+--- !u!114 &2110567001 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 758097538392716049, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
+  m_PrefabInstance: {fileID: 965189713}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5bb06684d0bb408a8c422c663026b44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Attack
 --- !u!4 &2117956743 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4012457302703615344, guid: e00a3503342964ec79cd1fcbccb064b2, type: 3}

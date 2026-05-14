@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 6414943758964490915}
   - component: {fileID: 8193947830204005333}
   - component: {fileID: 3864732728907821309}
-  - component: {fileID: 1517718891585236718}
   - component: {fileID: 5628452720209441099}
   - component: {fileID: 758097538392716049}
   - component: {fileID: 8967201000395842400}
@@ -136,20 +135,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0.015444259, y: 0.06370886}
   m_Size: {x: 0.09030265, y: 0.15498428}
   m_Direction: 0
---- !u!114 &1517718891585236718
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1900974484017381769}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa7461129aca3470faeabf43ae09b752, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PegHit
-  PegLegPrefab: {fileID: 7456559418602031570, guid: 214af7d712731410eb50a08ec64fc705, type: 3}
-  ProjectileSpawnPoint: {fileID: 2831145964249695968}
 --- !u!95 &5628452720209441099
 Animator:
   serializedVersion: 7
