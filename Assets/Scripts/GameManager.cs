@@ -14,7 +14,6 @@ public class GameManager : MonoBehaviour
     
     public Launcher Launcher;
     public SmokebombPlacer SmokebombPlacer;
-    
 
     public int winScore = 1;
     
@@ -25,25 +24,15 @@ public class GameManager : MonoBehaviour
         Instance = this;
     }
     
-    
     // Button
     public void OnPlayButtonClicked()
     {
-        GameManager.Instance.StartGame();
-        InitializeGame();
+        StartGame();
     }
     
     public void PlayAgain()
     {
         StartGame();
-    }
-    
-    
-    // Game Setup
-    
-    public void InitializeGame()
-    { ;
-        StartPlacers();
     }
     
     private void StartPlacers()
@@ -58,12 +47,11 @@ public class GameManager : MonoBehaviour
         
     }
     
-    
     // Game
-    
     public void StartGame()
     {
         gameEnded = false;
+        StartPlacers();
         ScoreKeeper.ResetScore();
         UpdateScoreUI();
         
@@ -74,6 +62,7 @@ public class GameManager : MonoBehaviour
     public void EndGame()
     {
         gameEnded = true;
+        StopPlacers();
         winPanel.SetActive(true);
 
         if (ScoreKeeper.GetLeftScore() >= winScore)
