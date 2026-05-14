@@ -1280,7 +1280,7 @@ GameObject:
   - component: {fileID: 214485869}
   m_Layer: 0
   m_Name: SwordTipHitBox
-  m_TagString: Untagged
+  m_TagString: BlueTeam
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1446,7 +1446,7 @@ GameObject:
   - component: {fileID: 254418068}
   m_Layer: 0
   m_Name: SwordTipHitBox
-  m_TagString: Untagged
+  m_TagString: RedTeam
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4183,7 +4183,7 @@ GameObject:
   - component: {fileID: 832198785}
   m_Layer: 0
   m_Name: SwordTipHitBox
-  m_TagString: Untagged
+  m_TagString: RedTeam
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4548,7 +4548,7 @@ GameObject:
   - component: {fileID: 857121797}
   m_Layer: 0
   m_Name: SwordTipHitBox
-  m_TagString: Untagged
+  m_TagString: BlueTeam
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4878,7 +4878,7 @@ GameObject:
   - component: {fileID: 913700778}
   m_Layer: 0
   m_Name: SwordTipHitBox
-  m_TagString: Untagged
+  m_TagString: BlueTeam
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5064,7 +5064,7 @@ GameObject:
   - component: {fileID: 932646681}
   m_Layer: 0
   m_Name: SwordTipHitBox
-  m_TagString: Untagged
+  m_TagString: BlueTeam
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5467,7 +5467,7 @@ GameObject:
   - component: {fileID: 974142224}
   m_Layer: 0
   m_Name: SwordTipHitBox
-  m_TagString: Untagged
+  m_TagString: RedTeam
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6558,7 +6558,7 @@ GameObject:
   - component: {fileID: 1188210809}
   m_Layer: 0
   m_Name: SwordTipHitBox
-  m_TagString: Untagged
+  m_TagString: RedTeam
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7135,7 +7135,7 @@ GameObject:
   - component: {fileID: 1240637204}
   m_Layer: 0
   m_Name: SwordTipHitBox
-  m_TagString: Untagged
+  m_TagString: BlueTeam
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8762,7 +8762,7 @@ GameObject:
   - component: {fileID: 1460613474}
   m_Layer: 0
   m_Name: SwordTipHitBox
-  m_TagString: Untagged
+  m_TagString: BlueTeam
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9377,7 +9377,7 @@ GameObject:
   - component: {fileID: 1688250240}
   m_Layer: 0
   m_Name: SwordTipHitBox
-  m_TagString: Untagged
+  m_TagString: BlueTeam
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10283,7 +10283,7 @@ GameObject:
   - component: {fileID: 1841495847}
   m_Layer: 0
   m_Name: SwordTipHitBox
-  m_TagString: Untagged
+  m_TagString: BlueTeam
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10375,7 +10375,7 @@ GameObject:
   - component: {fileID: 1854605234}
   m_Layer: 0
   m_Name: SwordTipHitBox
-  m_TagString: Untagged
+  m_TagString: RedTeam
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10991,7 +10991,7 @@ GameObject:
   - component: {fileID: 1969282413}
   m_Layer: 0
   m_Name: SwordTipHitBox
-  m_TagString: Untagged
+  m_TagString: RedTeam
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11083,7 +11083,7 @@ GameObject:
   - component: {fileID: 1976172350}
   m_Layer: 0
   m_Name: SwordTipHitBox
-  m_TagString: Untagged
+  m_TagString: RedTeam
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11175,7 +11175,7 @@ GameObject:
   - component: {fileID: 1977336582}
   m_Layer: 0
   m_Name: SwordTipHitBox
-  m_TagString: Untagged
+  m_TagString: RedTeam
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
