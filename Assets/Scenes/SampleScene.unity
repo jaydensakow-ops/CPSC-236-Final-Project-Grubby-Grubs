@@ -1575,6 +1575,10 @@ PrefabInstance:
       value: Peg
       objectReference: {fileID: 0}
     - target: {fileID: 1900974484017381769, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1900974484017381769, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: m_TagString
       value: RedTeam
       objectReference: {fileID: 0}
@@ -2054,7 +2058,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Goal
   Sounds: {fileID: 1388992698}
   launcher: {fileID: 1862807590}
-  isLeftGoal: 0
+  isLeftGoal: 1
 --- !u!61 &471539118
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5154,7 +5158,7 @@ GameObject:
   - component: {fileID: 935766367}
   - component: {fileID: 935766366}
   m_Layer: 0
-  m_Name: Audio Source
+  m_Name: Background Music
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5171,7 +5175,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 880f15aa474604bc697bc3774eceb1b7, type: 3}
+  m_Resource: {fileID: 8300000, guid: b19af0dcbd92a466da38a5a2528c7eb6, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.644
   m_Pitch: 1
