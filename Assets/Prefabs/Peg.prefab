@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 758097538392716049}
   - component: {fileID: 8967201000395842400}
   - component: {fileID: 1357580577663227751}
+  - component: {fileID: -1966967181233809053}
   m_Layer: 0
   m_Name: Peg
   m_TagString: Untagged
@@ -96,7 +97,7 @@ SpriteRenderer:
   m_Size: {x: 0.25, y: 0.1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_SpriteSortPoint: 0
 --- !u!70 &3864732728907821309
 CapsuleCollider2D:
@@ -212,6 +213,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjectHit
   forceStrength: 10
+--- !u!114 &-1966967181233809053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1900974484017381769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ee772f5491e840189cbe019494837fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FollowBall
 --- !u!1 &5060598594591388696
 GameObject:
   m_ObjectHideFlags: 0

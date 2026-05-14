@@ -1714,6 +1714,10 @@ PrefabInstance:
       value: Peg
       objectReference: {fileID: 0}
     - target: {fileID: 1900974484017381769, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1900974484017381769, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: m_TagString
       value: RedTeam
       objectReference: {fileID: 0}
@@ -5337,7 +5341,7 @@ GameObject:
   - component: {fileID: 935766367}
   - component: {fileID: 935766366}
   m_Layer: 0
-  m_Name: Audio Source
+  m_Name: Background Music
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
