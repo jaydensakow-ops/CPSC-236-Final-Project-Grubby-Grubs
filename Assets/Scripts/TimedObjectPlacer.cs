@@ -56,7 +56,7 @@ public class TimedObjectPlacer : MonoBehaviour
         isOkToCreate = false;
         
         float secondsToWait = Random.Range(minimumSecondsToWait, maximumSecondsToWait);
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(secondsToWait);
         Place();
         
         isOkToCreate = true;
@@ -65,5 +65,7 @@ public class TimedObjectPlacer : MonoBehaviour
     protected virtual void Place()
     {
         Instantiate(Prefab, SpawnTools.RandomLocationWorldSpace(), Quaternion.identity);
+        
+        
     }
 }
