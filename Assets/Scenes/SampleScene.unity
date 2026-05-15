@@ -2631,98 +2631,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1494424852694689612, guid: 4517d38afec8f47d1b2693c01f1e4375, type: 3}
   m_PrefabInstance: {fileID: 847618968}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &857121795
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 857121796}
-  - component: {fileID: 857121798}
-  - component: {fileID: 857121797}
-  m_Layer: 0
-  m_Name: SwordTipHitBox
-  m_TagString: BlueTeam
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &857121796
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 857121795}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.03, y: 0.12532063, z: 0}
-  m_LocalScale: {x: 0.38, y: 0.44000039, z: 0.32000095}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 965189714}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &857121797
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 857121795}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c63d51c81fed64a40b59db17ce301a6e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SwordHitBox
-  forceStrength: 10
---- !u!61 &857121798
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 857121795}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!4 &893111010 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9001602747326964985, guid: b5f4f460c99f24a1eb2cbbb9d51428eb, type: 3}
@@ -2864,7 +2772,7 @@ GameObject:
   m_Component:
   - component: {fileID: 915128566}
   m_Layer: 0
-  m_Name: FooseBallBase
+  m_Name: FoosBallBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3016,7 +2924,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -3269,22 +3177,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Peg
       objectReference: {fileID: 0}
-    - target: {fileID: 1900974484017381769, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
-      propertyPath: m_TagString
-      value: BlueTeam
-      objectReference: {fileID: 0}
-    - target: {fileID: 3864732728907821309, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6414943758964490915, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
-      propertyPath: m_LocalScale.x
-      value: -4.666088
-      objectReference: {fileID: 0}
-    - target: {fileID: 6414943758964490915, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
-      propertyPath: m_LocalScale.y
-      value: -1.9402088
-      objectReference: {fileID: 0}
     - target: {fileID: 6414943758964490915, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.2165
@@ -3325,17 +3217,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6414943758964490915, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 1517718891585236718, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 6414943758964490915, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 857121796}
+    m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
 --- !u!4 &965189714 stripped
@@ -5277,7 +5161,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1704682449
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6118,7 +6002,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1862807591}
   - component: {fileID: 1862807590}
-  - component: {fileID: 1862807592}
   m_Layer: 0
   m_Name: Launcher
   m_TagString: Untagged
@@ -6158,22 +6041,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1862807592
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1862807589}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3419061504b484fa58747af2dd461380, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SmokebombPlacer
-  Prefab: {fileID: 6526869714292390976, guid: 0ac3f8f5499b949a48bbfbdcd9df02d8, type: 3}
-  SpawnArea: {fileID: 0}
-  minimumSecondsToWait: 0
-  maximumSecondsToWait: 0
 --- !u!114 &1864630502 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 758097538392716049, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
@@ -6265,7 +6132,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1921882333}
   m_Layer: 0
-  m_Name: FooseballWalls
+  m_Name: FoosballWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7432,19 +7299,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4413069827502668621, guid: d7bb8749ee3024b0fa2957864d58ba20, type: 3}
       propertyPath: m_Color.b
-      value: 1
+      value: 0.4268423
       objectReference: {fileID: 0}
     - target: {fileID: 4413069827502668621, guid: d7bb8749ee3024b0fa2957864d58ba20, type: 3}
       propertyPath: m_Color.g
-      value: 1
+      value: 0.6541474
       objectReference: {fileID: 0}
     - target: {fileID: 4413069827502668621, guid: d7bb8749ee3024b0fa2957864d58ba20, type: 3}
       propertyPath: m_Color.r
-      value: 1
+      value: 0.8301887
       objectReference: {fileID: 0}
     - target: {fileID: 6321377875955969869, guid: d7bb8749ee3024b0fa2957864d58ba20, type: 3}
       propertyPath: m_Name
       value: Base
+      objectReference: {fileID: 0}
+    - target: {fileID: 6321377875955969869, guid: d7bb8749ee3024b0fa2957864d58ba20, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7070336088050420775, guid: d7bb8749ee3024b0fa2957864d58ba20, type: 3}
       propertyPath: m_LocalPosition.x

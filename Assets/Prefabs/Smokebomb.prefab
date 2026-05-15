@@ -152,3 +152,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Smokebomb
   secondsOnScreen: 1
+  SmokeBubbleParticlePrefab: {fileID: 6994047396138714412, guid: 082d8facd68d14dd3a95c497793398c3, type: 3}

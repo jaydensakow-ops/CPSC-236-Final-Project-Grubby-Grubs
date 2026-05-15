@@ -5,6 +5,8 @@ public class Ball : MonoBehaviour
     public Color redTeamColor = Color.red;
     public Color blueTeamColor = Color.blue;
     public Color neutralColor = Color.white;
+    
+    public GameObject SmokeBubbleParticlePrefab;
 
     private TrailRenderer trail;
 
@@ -31,5 +33,20 @@ public class Ball : MonoBehaviour
     {
         trail.startColor = neutralColor;
         trail.endColor = neutralColor;
+    }
+    
+    private void SpawnSmokeBubbleParticle(Vector3 position)
+    {
+        Instantiate(SmokeBubbleParticlePrefab, position, Quaternion.identity);
+    }
+    
+    public void OnTriggerEnter2D(Collider2D other)
+    {
+        
+        if (other.gameObject.CompareTag("Smokebomb"))
+        {
+            SpawnSmokeBubbleParticle(other.transform.position);
+            Destroy(other.gameObject);
+        }
     }
 }

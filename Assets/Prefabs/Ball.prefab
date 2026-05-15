@@ -302,3 +302,4 @@ MonoBehaviour:
   redTeamColor: {r: 1, g: 0, b: 0, a: 1}
   blueTeamColor: {r: 0, g: 0, b: 1, a: 1}
   neutralColor: {r: 1, g: 1, b: 1, a: 1}
+  SmokeBubbleParticlePrefab: {fileID: 6994047396138714412, guid: 082d8facd68d14dd3a95c497793398c3, type: 3}
