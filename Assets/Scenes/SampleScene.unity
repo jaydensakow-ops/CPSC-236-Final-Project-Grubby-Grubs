@@ -4663,6 +4663,7 @@ MonoBehaviour:
   Whistle: {fileID: 8300000, guid: 389a2d379df004709ad5be72d9c508e8, type: 3}
   Point: {fileID: 8300000, guid: ece8d6c385c294ee88b823f27fffd278, type: 3}
   BallGoal: {fileID: 8300000, guid: 8f28c8baa1f0b47eea35995ea7137aff, type: 3}
+  SmokebombSoundEffect: {fileID: 8300000, guid: 57015a99d4fd042e0a75451aa818369f, type: 3}
 --- !u!82 &1388992699
 AudioSource:
   m_ObjectHideFlags: 0

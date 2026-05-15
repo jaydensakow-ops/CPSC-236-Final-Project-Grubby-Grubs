@@ -7,12 +7,13 @@ public class Ball : MonoBehaviour
     public Color neutralColor = Color.white;
     
     public GameObject SmokeBubbleParticlePrefab;
-
+    private Sounds sounds;
     private TrailRenderer trail;
 
     void Awake()
     {
         trail = GetComponent<TrailRenderer>();
+        sounds = GetComponent<Sounds>();
         SetNeutral();
     }
 
@@ -45,6 +46,7 @@ public class Ball : MonoBehaviour
         
         if (other.tag == "Smokebomb")
         {
+            sounds.PlaySmokebombSound();
             SpawnSmokeBubbleParticle(other.transform.position);
             Destroy(other.gameObject);
         }
