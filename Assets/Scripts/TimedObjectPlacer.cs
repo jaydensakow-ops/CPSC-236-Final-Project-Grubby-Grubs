@@ -6,6 +6,8 @@ using UnityEngine;
 public class TimedObjectPlacer : MonoBehaviour
 {
     public GameObject Prefab;
+
+    public Collider2D SpawnArea;
     
     public float minimumSecondsToWait;
     public float maximumSecondsToWait;
@@ -64,8 +66,16 @@ public class TimedObjectPlacer : MonoBehaviour
 
     protected virtual void Place()
     {
-        Instantiate(Prefab, SpawnTools.RandomLocationWorldSpace(), Quaternion.identity);
+        Instantiate(Prefab, GetRandomSpawnArea(), Quaternion.identity);
+    }
+
+    private Vector3 GetRandomSpawnArea()
+    {
+        Bounds bounds = SpawnArea.bounds;
+
+        float randomX = Random.Range(bounds.min.x, bounds.max.x);
+        float randomY = Random.Range(bounds.min.y, bounds.max.y);
         
-        
+        return new Vector3(randomX, randomY, 0f);
     }
 }

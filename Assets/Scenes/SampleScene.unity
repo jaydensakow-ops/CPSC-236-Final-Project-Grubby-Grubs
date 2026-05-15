@@ -765,6 +765,11 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &157793974 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6321377875955969869, guid: d7bb8749ee3024b0fa2957864d58ba20, type: 3}
+  m_PrefabInstance: {fileID: 835772924263129579}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &166016524
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1869,6 +1874,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SmokebombPlacer
   Prefab: {fileID: 6526869714292390976, guid: 0ac3f8f5499b949a48bbfbdcd9df02d8, type: 3}
+  SpawnArea: {fileID: 923465125}
   minimumSecondsToWait: 0
   maximumSecondsToWait: 0
 --- !u!1 &619394800
@@ -2980,6 +2986,52 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7070336088050420775, guid: d7bb8749ee3024b0fa2957864d58ba20, type: 3}
   m_PrefabInstance: {fileID: 835772924263129579}
   m_PrefabAsset: {fileID: 0}
+--- !u!61 &923465125
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 157793974}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &932646680
 GameObject:
   m_ObjectHideFlags: 0
@@ -6119,6 +6171,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SmokebombPlacer
   Prefab: {fileID: 6526869714292390976, guid: 0ac3f8f5499b949a48bbfbdcd9df02d8, type: 3}
+  SpawnArea: {fileID: 0}
   minimumSecondsToWait: 0
   maximumSecondsToWait: 0
 --- !u!114 &1864630502 stripped
@@ -7436,7 +7489,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6321377875955969869, guid: d7bb8749ee3024b0fa2957864d58ba20, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 923465125}
   m_SourcePrefab: {fileID: 100100000, guid: d7bb8749ee3024b0fa2957864d58ba20, type: 3}
 --- !u!1001 &1736113696225976964
 PrefabInstance:
