@@ -43,7 +43,7 @@ public class Ball : MonoBehaviour
     public void OnTriggerEnter2D(Collider2D other)
     {
         
-        if (other.gameObject.CompareTag("Smokebomb"))
+        if (other.tag == "Smokebomb")
         {
             SpawnSmokeBubbleParticle(other.transform.position);
             Destroy(other.gameObject);

@@ -131,6 +131,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShortWall (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 597869674670119252, guid: c2d2a88d3ae094303825ef869877ddf5, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8478779056336702744, guid: c2d2a88d3ae094303825ef869877ddf5, type: 3}
       propertyPath: m_LocalScale.y
       value: 6
@@ -610,7 +614,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 21300000, guid: d932f7020dcdf460c92c01a36cbe577f, type: 3}
   m_Color: {r: 0, g: 1, b: 0.9638114, a: 1}
@@ -753,7 +757,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 21300000, guid: d932f7020dcdf460c92c01a36cbe577f, type: 3}
   m_Color: {r: 1, g: 0.33585122, b: 0.3066038, a: 1}
@@ -1171,7 +1175,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 288464879}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: HorizontalWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1206,6 +1210,10 @@ PrefabInstance:
     - target: {fileID: 597869674670119252, guid: c2d2a88d3ae094303825ef869877ddf5, type: 3}
       propertyPath: m_Name
       value: ShortWall (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 597869674670119252, guid: c2d2a88d3ae094303825ef869877ddf5, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8478779056336702744, guid: c2d2a88d3ae094303825ef869877ddf5, type: 3}
       propertyPath: m_LocalScale.y
@@ -3331,6 +3339,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShortWall (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 597869674670119252, guid: c2d2a88d3ae094303825ef869877ddf5, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8478779056336702744, guid: c2d2a88d3ae094303825ef869877ddf5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -21.9
@@ -5161,7 +5173,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1704682449
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5543,7 +5555,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 21300000, guid: d932f7020dcdf460c92c01a36cbe577f, type: 3}
   m_Color: {r: 0, g: 1, b: 0.9638114, a: 1}
@@ -5566,6 +5578,10 @@ PrefabInstance:
     - target: {fileID: 8914873408397337097, guid: b5f4f460c99f24a1eb2cbbb9d51428eb, type: 3}
       propertyPath: m_Name
       value: LongWall (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8914873408397337097, guid: b5f4f460c99f24a1eb2cbbb9d51428eb, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9001602747326964985, guid: b5f4f460c99f24a1eb2cbbb9d51428eb, type: 3}
       propertyPath: m_LocalScale.x
@@ -5722,7 +5738,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 21300000, guid: d932f7020dcdf460c92c01a36cbe577f, type: 3}
   m_Color: {r: 1, g: 0.33585122, b: 0.3066038, a: 1}
@@ -5837,6 +5853,10 @@ PrefabInstance:
     - target: {fileID: 597869674670119252, guid: c2d2a88d3ae094303825ef869877ddf5, type: 3}
       propertyPath: m_Name
       value: ShortWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 597869674670119252, guid: c2d2a88d3ae094303825ef869877ddf5, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 597869674670119252, guid: c2d2a88d3ae094303825ef869877ddf5, type: 3}
       propertyPath: m_IsActive
@@ -6064,6 +6084,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShortWall (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 597869674670119252, guid: c2d2a88d3ae094303825ef869877ddf5, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8478779056336702744, guid: c2d2a88d3ae094303825ef869877ddf5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 21.9
@@ -6131,7 +6155,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1921882333}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FoosballWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6745,7 +6769,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2018375325}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: VerticalWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6949,7 +6973,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 21300000, guid: d932f7020dcdf460c92c01a36cbe577f, type: 3}
   m_Color: {r: 0, g: 1, b: 0.9638114, a: 1}
@@ -7057,7 +7081,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 21300000, guid: d932f7020dcdf460c92c01a36cbe577f, type: 3}
   m_Color: {r: 1, g: 0.33585122, b: 0.3066038, a: 1}
@@ -7231,6 +7255,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShortWall (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 597869674670119252, guid: c2d2a88d3ae094303825ef869877ddf5, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8478779056336702744, guid: c2d2a88d3ae094303825ef869877ddf5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -21.9
@@ -7308,6 +7336,10 @@ PrefabInstance:
     - target: {fileID: 4413069827502668621, guid: d7bb8749ee3024b0fa2957864d58ba20, type: 3}
       propertyPath: m_Color.r
       value: 0.8301887
+      objectReference: {fileID: 0}
+    - target: {fileID: 4413069827502668621, guid: d7bb8749ee3024b0fa2957864d58ba20, type: 3}
+      propertyPath: m_SortingOrder
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 6321377875955969869, guid: d7bb8749ee3024b0fa2957864d58ba20, type: 3}
       propertyPath: m_Name
@@ -7573,6 +7605,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BaseDecor
       objectReference: {fileID: 0}
+    - target: {fileID: 7989880493700123482, guid: eba922c5906184afcbadad7511cf439e, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7589,6 +7625,10 @@ PrefabInstance:
     - target: {fileID: 8914873408397337097, guid: b5f4f460c99f24a1eb2cbbb9d51428eb, type: 3}
       propertyPath: m_Name
       value: LongWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 8914873408397337097, guid: b5f4f460c99f24a1eb2cbbb9d51428eb, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9001602747326964985, guid: b5f4f460c99f24a1eb2cbbb9d51428eb, type: 3}
       propertyPath: m_LocalScale.x
