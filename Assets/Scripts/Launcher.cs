@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using TMPro;
 
 public class Launcher : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class Launcher : MonoBehaviour
     public float maxLaunchForce = GameParameters.maxLaunchForce;
     public float kickoffDelay = GameParameters.kickoffDelay;
     public Sounds Sounds;
+    
+    public TMP_Text kickoffText;
 
     private GameObject activeBall;
     private bool canKickoff = false;
@@ -35,11 +38,12 @@ public class Launcher : MonoBehaviour
     {
         yield return new WaitForSeconds(kickoffDelay);
         canKickoff = true;
-        Debug.Log("Press Space to kickoff!");
+        kickoffText.text = "Press Space to Kickoff!";
     }
     private void SpawnBall()
     {
         canKickoff = false;
+        kickoffText.text = "";
         Sounds.PlayWhistleSound();
 
         activeBall = Instantiate(ballPrefab, Vector2.zero, Quaternion.identity);

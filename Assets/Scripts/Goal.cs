@@ -1,5 +1,5 @@
 using UnityEngine;
-
+using TMPro;
 public class Goal : MonoBehaviour
 {
     public Sounds sounds;
@@ -8,13 +8,14 @@ public class Goal : MonoBehaviour
     public bool isLeftGoal;
 
     public GameObject fireworkParticlesPrefab;
+    public TMP_Text goalText;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Ball"))
         {
-            Debug.Log("GOAL!!!");
-
+            goalText.text = "GOAL!";
+            
             // Spawn fireworks
             SpawnParticles(other);
 
