@@ -4277,6 +4277,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9f55ebad00464c8d8cbf610ae0ac461, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KeyboardInput
+  launcher: {fileID: 1862807590}
   Rod1: {fileID: 2047167755}
   Rod2: {fileID: 1769816464}
   Rod3: {fileID: 61575073}

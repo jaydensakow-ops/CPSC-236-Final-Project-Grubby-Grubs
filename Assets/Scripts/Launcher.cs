@@ -13,9 +13,9 @@ public class Launcher : MonoBehaviour
     private GameObject activeBall;
     private bool canKickoff = false;
     
-    void Update()
+   public void Kickoff()
     {
-        if (canKickoff && Mouse.current.leftButton.wasPressedThisFrame)
+        if (canKickoff)
         {
             SpawnBall();
         }
@@ -35,7 +35,7 @@ public class Launcher : MonoBehaviour
     {
         yield return new WaitForSeconds(kickoffDelay);
         canKickoff = true;
-        Debug.Log("Click to kickoff!");
+        Debug.Log("Press Space to kickoff!");
     }
     private void SpawnBall()
     {

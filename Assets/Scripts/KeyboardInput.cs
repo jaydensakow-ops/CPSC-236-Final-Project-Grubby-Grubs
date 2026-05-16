@@ -3,6 +3,7 @@ using UnityEngine.InputSystem;
 
 public class KeyboardInput : MonoBehaviour
 {
+    public Launcher launcher;
     public Rod Rod1;
     public Rod Rod2;
     public Rod Rod3;
@@ -18,6 +19,11 @@ public class KeyboardInput : MonoBehaviour
     void Update()
     {
         Keyboard keyboard = Keyboard.current;
+
+        if (keyboard.spaceKey.isPressed)
+        {
+            launcher.Kickoff();
+        }
 
         if (keyboard.wKey.isPressed)
         {
