@@ -25,12 +25,15 @@ public class SwordHitBox : MonoBehaviour
         if (other.CompareTag("Ball"))
         {
             Rigidbody2D rb = other.GetComponent<Rigidbody2D>();
+            
 
             if (rb != null)
             {
                 Vector2 direction = other.transform.position - transform.position;
                 rb.AddForce(direction.normalized * forceStrength, ForceMode2D.Impulse);
-
+                Ball ball = other.GetComponent<Ball>();
+                if (ball != null)
+                    ball.ChangeColor(gameObject.tag);
                 hasHit = true;
             }
         }

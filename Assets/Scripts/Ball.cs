@@ -17,11 +17,11 @@ public class Ball : MonoBehaviour
         SetNeutral();
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    public void ChangeColor(string team)
     {
-        if (collision.gameObject.CompareTag("RedTeam"))
+        if (team == "RedTeam")
             SetColor(redTeamColor);
-        else if (collision.gameObject.CompareTag("BlueTeam"))
+        else if (team == "BlueTeam")
             SetColor(blueTeamColor);
     }
     
