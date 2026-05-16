@@ -91,4 +91,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c63d51c81fed64a40b59db17ce301a6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SwordHitBox
-  forceStrength: 3
+  forceStrength: 10

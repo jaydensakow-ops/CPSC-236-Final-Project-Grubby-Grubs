@@ -785,7 +785,7 @@ PrefabInstance:
     - target: {fileID: 758097538392716049, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: SwordHitBox
       value: 
-      objectReference: {fileID: 214485869}
+      objectReference: {fileID: 1547684720}
     - target: {fileID: 1900974484017381769, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: m_Name
       value: Peg
@@ -793,6 +793,10 @@ PrefabInstance:
     - target: {fileID: 1900974484017381769, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: m_TagString
       value: BlueTeam
+      objectReference: {fileID: 0}
+    - target: {fileID: 2158429628101192280, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.075
       objectReference: {fileID: 0}
     - target: {fileID: 3864732728907821309, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: m_Enabled
@@ -856,7 +860,7 @@ PrefabInstance:
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 6414943758964490915, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1688250239}
+      addedObject: {fileID: 1547684719}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
 --- !u!4 &166016525 stripped
@@ -935,7 +939,7 @@ Transform:
   m_GameObject: {fileID: 214485867}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.03, y: 0.070679404, z: 0}
+  m_LocalPosition: {x: -0.03, y: 0.24267942, z: 0}
   m_LocalScale: {x: 0.38, y: 0.44000039, z: 0.32000095}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -988,7 +992,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.26483595, y: -0.35826445}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -998,7 +1002,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.6933476, y: 1.0217128}
   m_EdgeRadius: 0
 --- !u!1001 &250425389
 PrefabInstance:
@@ -1074,98 +1078,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1494424852694689612, guid: 4517d38afec8f47d1b2693c01f1e4375, type: 3}
   m_PrefabInstance: {fileID: 250425389}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &254418066
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 254418067}
-  - component: {fileID: 254418069}
-  - component: {fileID: 254418068}
-  m_Layer: 0
-  m_Name: SwordTipHitBox
-  m_TagString: RedTeam
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &254418067
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 254418066}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.03, y: 0.12532063, z: 0}
-  m_LocalScale: {x: 0.38, y: 0.44000039, z: 0.32000095}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1081714601}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &254418068
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 254418066}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c63d51c81fed64a40b59db17ce301a6e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SwordHitBox
-  forceStrength: 10
---- !u!61 &254418069
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 254418066}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!1 &288464878
 GameObject:
   m_ObjectHideFlags: 0
@@ -1288,7 +1200,7 @@ PrefabInstance:
     - target: {fileID: 758097538392716049, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: SwordHitBox
       value: 
-      objectReference: {fileID: 1188210809}
+      objectReference: {fileID: 1851946058}
     - target: {fileID: 1900974484017381769, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: m_Name
       value: Peg
@@ -1363,7 +1275,7 @@ PrefabInstance:
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 6414943758964490915, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 832198784}
+      addedObject: {fileID: 1851946057}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
 --- !u!4 &341928556 stripped
@@ -1747,7 +1659,7 @@ PrefabInstance:
     - target: {fileID: 758097538392716049, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: SwordHitBox
       value: 
-      objectReference: {fileID: 1969282413}
+      objectReference: {fileID: 928702435}
     - target: {fileID: 1900974484017381769, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: m_Name
       value: Peg
@@ -1818,7 +1730,7 @@ PrefabInstance:
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 6414943758964490915, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1977336581}
+      addedObject: {fileID: 928702434}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
 --- !u!4 &547218228 stripped
@@ -2159,6 +2071,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: BlueTeam
       objectReference: {fileID: 0}
+    - target: {fileID: 2158429628101192280, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.02
+      objectReference: {fileID: 0}
     - target: {fileID: 3864732728907821309, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -2236,7 +2152,7 @@ PrefabInstance:
     - target: {fileID: 758097538392716049, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: SwordHitBox
       value: 
-      objectReference: {fileID: 8693771669201920140, guid: e00a3503342964ec79cd1fcbccb064b2, type: 3}
+      objectReference: {fileID: 1188210809}
     - target: {fileID: 1900974484017381769, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: m_Name
       value: Peg (2)
@@ -2333,98 +2249,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5bb06684d0bb408a8c422c663026b44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Attack
---- !u!1 &832198783
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 832198784}
-  - component: {fileID: 832198786}
-  - component: {fileID: 832198785}
-  m_Layer: 0
-  m_Name: SwordTipHitBox
-  m_TagString: RedTeam
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &832198784
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 832198783}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.03, y: 0.12532063, z: 0}
-  m_LocalScale: {x: 0.38, y: 0.44000039, z: 0.32000095}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 341928556}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &832198785
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 832198783}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c63d51c81fed64a40b59db17ce301a6e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SwordHitBox
-  forceStrength: 10
---- !u!61 &832198786
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 832198783}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!4 &835206159 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3919300922858117606, guid: eba922c5906184afcbadad7511cf439e, type: 3}
@@ -2680,98 +2504,6 @@ Transform:
   - {fileID: 2086176992}
   m_Father: {fileID: 205526960}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &913700776
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 913700777}
-  - component: {fileID: 913700779}
-  - component: {fileID: 913700778}
-  m_Layer: 0
-  m_Name: SwordTipHitBox
-  m_TagString: BlueTeam
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &913700777
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 913700776}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.03, y: 0.12532063, z: 0}
-  m_LocalScale: {x: 0.38, y: 0.44000039, z: 0.32000095}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1217741453}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &913700778
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 913700776}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c63d51c81fed64a40b59db17ce301a6e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SwordHitBox
-  forceStrength: 10
---- !u!61 &913700779
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 913700776}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!1 &915128565
 GameObject:
   m_ObjectHideFlags: 0
@@ -2952,6 +2684,98 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &928702433
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 928702434}
+  - component: {fileID: 928702436}
+  - component: {fileID: 928702435}
+  m_Layer: 0
+  m_Name: SwordTipHitBox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &928702434
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 928702433}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.162, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 547218228}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &928702435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 928702433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c63d51c81fed64a40b59db17ce301a6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SwordHitBox
+  forceStrength: 10
+--- !u!61 &928702436
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 928702433}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.071505815, y: -0.10031411}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.29553637, y: 0.45543784}
+  m_EdgeRadius: 0
 --- !u!1 &932646680
 GameObject:
   m_ObjectHideFlags: 0
@@ -3017,7 +2841,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.25786635, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -3027,7 +2851,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.67940897, y: 1}
   m_EdgeRadius: 0
 --- !u!4 &932646683
 Transform:
@@ -3038,7 +2862,7 @@ Transform:
   m_GameObject: {fileID: 932646680}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.03, y: 0.070679404, z: 0}
+  m_LocalPosition: {x: -0.03, y: 0.09735877, z: 0}
   m_LocalScale: {x: 0.38, y: 0.44000039, z: 0.32000095}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3184,10 +3008,14 @@ PrefabInstance:
     - target: {fileID: 758097538392716049, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: SwordHitBox
       value: 
-      objectReference: {fileID: 932646681}
+      objectReference: {fileID: 1240893945}
     - target: {fileID: 1900974484017381769, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: m_Name
       value: Peg
+      objectReference: {fileID: 0}
+    - target: {fileID: 2158429628101192280, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.06
       objectReference: {fileID: 0}
     - target: {fileID: 6414943758964490915, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3231,7 +3059,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 6414943758964490915, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1240893944}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
 --- !u!4 &965189714 stripped
@@ -3266,7 +3097,7 @@ Transform:
   m_GameObject: {fileID: 974142222}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.03, y: 0.084, z: 0}
+  m_LocalPosition: {x: -0.03, y: 0.24600002, z: 0}
   m_LocalScale: {x: 0.38, y: 0.43999982, z: 0.31999987}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3319,7 +3150,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.26483583, y: -0.30398214}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -3329,7 +3160,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.74910307, y: 1.0868518}
   m_EdgeRadius: 0
 --- !u!1001 &991413809
 PrefabInstance:
@@ -3569,6 +3400,98 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2189016704015064344, guid: 62306cce7c1be4459a3d3f14e570a5dd, type: 3}
   m_PrefabInstance: {fileID: 1039085014}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1062221784
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1062221785}
+  - component: {fileID: 1062221787}
+  - component: {fileID: 1062221786}
+  m_Layer: 0
+  m_Name: SwordTipHitBox (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1062221785
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1062221784}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.01, y: 0.163, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1081714601}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1062221786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1062221784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c63d51c81fed64a40b59db17ce301a6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SwordHitBox
+  forceStrength: 10
+--- !u!61 &1062221787
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1062221784}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.071505815, y: -0.10031411}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.29553637, y: 0.45543784}
+  m_EdgeRadius: 0
 --- !u!114 &1073691646 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 758097538392716049, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
@@ -3591,7 +3514,7 @@ PrefabInstance:
     - target: {fileID: 758097538392716049, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: SwordHitBox
       value: 
-      objectReference: {fileID: 1976172350}
+      objectReference: {fileID: 1062221786}
     - target: {fileID: 1900974484017381769, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: m_Name
       value: Peg
@@ -3662,7 +3585,7 @@ PrefabInstance:
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 6414943758964490915, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 254418067}
+      addedObject: {fileID: 1062221785}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
 --- !u!4 &1081714601 stripped
@@ -3817,7 +3740,7 @@ Transform:
   m_GameObject: {fileID: 1188210807}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.03, y: 0.070679404, z: 0}
+  m_LocalPosition: {x: -0.03, y: 0.23267943, z: 0}
   m_LocalScale: {x: 0.38, y: 0.44000039, z: 0.32000095}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3870,7 +3793,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.25089714, y: -0.35826415}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -3880,7 +3803,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.7491028, y: 1.0217133}
   m_EdgeRadius: 0
 --- !u!1001 &1217741452
 PrefabInstance:
@@ -3893,7 +3816,7 @@ PrefabInstance:
     - target: {fileID: 758097538392716049, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: SwordHitBox
       value: 
-      objectReference: {fileID: 1240637204}
+      objectReference: {fileID: 1835085888}
     - target: {fileID: 1900974484017381769, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: m_Name
       value: Peg
@@ -3901,6 +3824,10 @@ PrefabInstance:
     - target: {fileID: 1900974484017381769, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: m_TagString
       value: BlueTeam
+      objectReference: {fileID: 0}
+    - target: {fileID: 2158429628101192280, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.09
       objectReference: {fileID: 0}
     - target: {fileID: 3864732728907821309, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: m_Enabled
@@ -3964,7 +3891,7 @@ PrefabInstance:
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 6414943758964490915, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 913700777}
+      addedObject: {fileID: 1835085887}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
 --- !u!4 &1217741453 stripped
@@ -4057,7 +3984,7 @@ PrefabInstance:
     - target: {fileID: 758097538392716049, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: SwordHitBox
       value: 
-      objectReference: {fileID: 8693771669201920140, guid: e00a3503342964ec79cd1fcbccb064b2, type: 3}
+      objectReference: {fileID: 1240637204}
     - target: {fileID: 1900974484017381769, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: m_Name
       value: Peg (2)
@@ -4065,6 +3992,10 @@ PrefabInstance:
     - target: {fileID: 1900974484017381769, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: m_TagString
       value: BlueTeam
+      objectReference: {fileID: 0}
+    - target: {fileID: 2158429628101192280, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.05
       objectReference: {fileID: 0}
     - target: {fileID: 3864732728907821309, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: m_Enabled
@@ -4170,7 +4101,7 @@ Transform:
   m_GameObject: {fileID: 1240637202}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.03, y: 0.070679404, z: 0}
+  m_LocalPosition: {x: -0.03, y: 0.0773587, z: 0}
   m_LocalScale: {x: 0.38, y: 0.44000039, z: 0.32000095}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4223,7 +4154,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.26483607, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -4233,7 +4164,99 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.6933477, y: 1}
+  m_EdgeRadius: 0
+--- !u!1 &1240893943
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1240893944}
+  - component: {fileID: 1240893946}
+  - component: {fileID: 1240893945}
+  m_Layer: 0
+  m_Name: SwordTipHitBox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1240893944
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1240893943}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.172, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 965189714}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1240893945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1240893943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c63d51c81fed64a40b59db17ce301a6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SwordHitBox
+  forceStrength: 10
+--- !u!61 &1240893946
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1240893943}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.059597615, y: -0.09405944}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.27489585, y: 0.45355934}
   m_EdgeRadius: 0
 --- !u!1 &1264528929
 GameObject:
@@ -4389,7 +4412,7 @@ PrefabInstance:
     - target: {fileID: 758097538392716049, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: SwordHitBox
       value: 
-      objectReference: {fileID: 8693771669201920140, guid: e00a3503342964ec79cd1fcbccb064b2, type: 3}
+      objectReference: {fileID: 932646681}
     - target: {fileID: 1900974484017381769, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: m_Name
       value: Peg (2)
@@ -4397,6 +4420,10 @@ PrefabInstance:
     - target: {fileID: 1900974484017381769, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: m_TagString
       value: BlueTeam
+      objectReference: {fileID: 0}
+    - target: {fileID: 2158429628101192280, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.02
       objectReference: {fileID: 0}
     - target: {fileID: 3864732728907821309, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: m_Enabled
@@ -4475,7 +4502,7 @@ PrefabInstance:
     - target: {fileID: 758097538392716049, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: SwordHitBox
       value: 
-      objectReference: {fileID: 8693771669201920140, guid: e00a3503342964ec79cd1fcbccb064b2, type: 3}
+      objectReference: {fileID: 1969282413}
     - target: {fileID: 1900974484017381769, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: m_Name
       value: Peg (2)
@@ -5061,7 +5088,7 @@ Transform:
   m_GameObject: {fileID: 1460613472}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.03, y: 0.084, z: 0}
+  m_LocalPosition: {x: -0.03, y: 0.10067932, z: 0}
   m_LocalScale: {x: 0.38, y: 0.43999982, z: 0.31999987}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5114,7 +5141,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.23695844, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -5124,7 +5151,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.6933478, y: 1}
   m_EdgeRadius: 0
 --- !u!114 &1494275252 stripped
 MonoBehaviour:
@@ -5137,6 +5164,98 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5bb06684d0bb408a8c422c663026b44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Attack
+--- !u!1 &1547684718
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1547684719}
+  - component: {fileID: 1547684721}
+  - component: {fileID: 1547684720}
+  m_Layer: 0
+  m_Name: SwordTIpHitBox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1547684719
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1547684718}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.172, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 166016525}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1547684720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1547684718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c63d51c81fed64a40b59db17ce301a6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SwordHitBox
+  forceStrength: 10
+--- !u!61 &1547684721
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1547684718}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.066208936, y: -0.08120671}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.28494292, y: 0.47454518}
+  m_EdgeRadius: 0
 --- !u!114 &1555324422 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 758097538392716049, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
@@ -5222,98 +5341,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2189016704015064344, guid: 62306cce7c1be4459a3d3f14e570a5dd, type: 3}
   m_PrefabInstance: {fileID: 1576660582}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1688250238
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1688250239}
-  - component: {fileID: 1688250241}
-  - component: {fileID: 1688250240}
-  m_Layer: 0
-  m_Name: SwordTipHitBox
-  m_TagString: BlueTeam
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1688250239
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1688250238}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.03, y: 0.12532063, z: 0}
-  m_LocalScale: {x: 0.38, y: 0.44000039, z: 0.32000095}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 166016525}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1688250240
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1688250238}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c63d51c81fed64a40b59db17ce301a6e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SwordHitBox
-  forceStrength: 10
---- !u!61 &1688250241
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1688250238}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!1 &1704682448
 GameObject:
   m_ObjectHideFlags: 0
@@ -5431,7 +5458,7 @@ PrefabInstance:
     - target: {fileID: 758097538392716049, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: SwordHitBox
       value: 
-      objectReference: {fileID: 8693771669201920140, guid: e00a3503342964ec79cd1fcbccb064b2, type: 3}
+      objectReference: {fileID: 1976172350}
     - target: {fileID: 1900974484017381769, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: m_Name
       value: Peg (2)
@@ -5639,6 +5666,10 @@ PrefabInstance:
     - target: {fileID: 1900974484017381769, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: m_TagString
       value: BlueTeam
+      objectReference: {fileID: 0}
+    - target: {fileID: 2158429628101192280, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.04
       objectReference: {fileID: 0}
     - target: {fileID: 3864732728907821309, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: m_Enabled
@@ -6009,6 +6040,98 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &1835085886
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1835085887}
+  - component: {fileID: 1835085889}
+  - component: {fileID: 1835085888}
+  m_Layer: 0
+  m_Name: SwordTipHitBox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1835085887
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1835085886}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.182, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1217741453}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1835085888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1835085886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c63d51c81fed64a40b59db17ce301a6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SwordHitBox
+  forceStrength: 10
+--- !u!61 &1835085889
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1835085886}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.058263868, y: -0.07165298}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.25845936, y: 0.45543796}
+  m_EdgeRadius: 0
 --- !u!1 &1841495845
 GameObject:
   m_ObjectHideFlags: 0
@@ -6036,7 +6159,7 @@ Transform:
   m_GameObject: {fileID: 1841495845}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.03, y: 0.084, z: 0}
+  m_LocalPosition: {x: -0.03, y: 0.110679425, z: 0}
   m_LocalScale: {x: 0.38, y: 0.43999982, z: 0.31999987}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6089,7 +6212,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.28099746, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -6099,7 +6222,99 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.67325914, y: 1}
+  m_EdgeRadius: 0
+--- !u!1 &1851946056
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1851946057}
+  - component: {fileID: 1851946059}
+  - component: {fileID: 1851946058}
+  m_Layer: 0
+  m_Name: SwordTipHitBox (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1851946057
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851946056}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.003, y: 0.172, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 341928556}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1851946058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851946056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c63d51c81fed64a40b59db17ce301a6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SwordHitBox
+  forceStrength: 10
+--- !u!61 &1851946059
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851946056}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.071505815, y: -0.10031411}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.29553637, y: 0.45543784}
   m_EdgeRadius: 0
 --- !u!1001 &1852904779
 PrefabInstance:
@@ -6206,7 +6421,7 @@ Transform:
   m_GameObject: {fileID: 1854605232}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.03, y: 0.084, z: 0}
+  m_LocalPosition: {x: -0.03, y: 0.24600002, z: 0}
   m_LocalScale: {x: 0.38, y: 0.43999982, z: 0.31999987}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6259,7 +6474,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.2508972, y: -0.36912113}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -6269,7 +6484,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.7212253, y: 1.086852}
   m_EdgeRadius: 0
 --- !u!1 &1862807589
 GameObject:
@@ -6450,7 +6665,7 @@ PrefabInstance:
     - target: {fileID: 758097538392716049, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: SwordHitBox
       value: 
-      objectReference: {fileID: 8693771669201920140, guid: e00a3503342964ec79cd1fcbccb064b2, type: 3}
+      objectReference: {fileID: 214485869}
     - target: {fileID: 1900974484017381769, guid: 593be03aa6d284cceb747b77fa9cd3cc, type: 3}
       propertyPath: m_Name
       value: Peg (2)
@@ -6563,7 +6778,7 @@ Transform:
   m_GameObject: {fileID: 1969282411}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.03, y: 0.070679404, z: 0}
+  m_LocalPosition: {x: -0.03, y: 0.23267943, z: 0}
   m_LocalScale: {x: 0.38, y: 0.44000039, z: 0.32000095}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6616,7 +6831,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.2508973, y: -0.36912066}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -6626,7 +6841,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.7769805, y: 1.1302781}
   m_EdgeRadius: 0
 --- !u!1 &1976172348
 GameObject:
@@ -6655,7 +6870,7 @@ Transform:
   m_GameObject: {fileID: 1976172348}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.03, y: 0.070679404, z: 0}
+  m_LocalPosition: {x: 0.139, y: 0.051999927, z: 0}
   m_LocalScale: {x: 0.38, y: 0.44000039, z: 0.32000095}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6708,7 +6923,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.15332612, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -6718,99 +6933,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
---- !u!1 &1977336580
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1977336581}
-  - component: {fileID: 1977336583}
-  - component: {fileID: 1977336582}
-  m_Layer: 0
-  m_Name: SwordTipHitBox
-  m_TagString: RedTeam
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1977336581
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1977336580}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.03, y: 0.12532063, z: 0}
-  m_LocalScale: {x: 0.38, y: 0.44000039, z: 0.32000095}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 547218228}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1977336582
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1977336580}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c63d51c81fed64a40b59db17ce301a6e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SwordHitBox
-  forceStrength: 10
---- !u!61 &1977336583
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1977336580}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.69334775, y: 1}
   m_EdgeRadius: 0
 --- !u!1001 &1980180254
 PrefabInstance:
