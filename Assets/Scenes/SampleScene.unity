@@ -1401,9 +1401,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8dc8d41e626844bfbf50f9e53675b72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Goal
-  Sounds: {fileID: 1388992698}
+  sounds: {fileID: 1388992698}
   launcher: {fileID: 1862807590}
   isLeftGoal: 1
+  fireworkParticlesPrefab: {fileID: 5982161669779614337, guid: 24fe27c706a7a4cb6a728aa6daf316bf, type: 3}
 --- !u!61 &471539118
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1448,7 +1449,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 6.3126507}
+  m_Size: {x: 1.72, y: 6.7}
   m_EdgeRadius: 0
 --- !u!4 &471539119
 Transform:
@@ -1459,7 +1460,7 @@ Transform:
   m_GameObject: {fileID: 471539116}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.9499207, y: 1.43891, z: 0}
+  m_LocalPosition: {x: -3.24, y: 1.43891, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1882,7 +1883,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SmokebombPlacer
   Prefab: {fileID: 6526869714292390976, guid: 0ac3f8f5499b949a48bbfbdcd9df02d8, type: 3}
-  SpawnArea: {fileID: 923465125}
+  SpawnArea: {fileID: 0}
   minimumSecondsToWait: 0
   maximumSecondsToWait: 0
 --- !u!1 &619394800
@@ -2833,9 +2834,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8dc8d41e626844bfbf50f9e53675b72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Goal
-  Sounds: {fileID: 1388992698}
+  sounds: {fileID: 1388992698}
   launcher: {fileID: 1862807590}
   isLeftGoal: 0
+  fireworkParticlesPrefab: {fileID: 5982161669779614337, guid: 24fe27c706a7a4cb6a728aa6daf316bf, type: 3}
 --- !u!61 &921796165
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2880,7 +2882,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 6.314185}
+  m_Size: {x: 1.68, y: 6.64}
   m_EdgeRadius: 0
 --- !u!4 &921796166
 Transform:
@@ -2891,7 +2893,7 @@ Transform:
   m_GameObject: {fileID: 921796163}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 40.040077, y: 1.2389102, z: 0}
+  m_LocalPosition: {x: 40.37, y: 1.2389102, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4663,7 +4665,7 @@ MonoBehaviour:
   Whistle: {fileID: 8300000, guid: 389a2d379df004709ad5be72d9c508e8, type: 3}
   Point: {fileID: 8300000, guid: ece8d6c385c294ee88b823f27fffd278, type: 3}
   BallGoal: {fileID: 8300000, guid: 8f28c8baa1f0b47eea35995ea7137aff, type: 3}
-  SmokebombSoundEffect: {fileID: 8300000, guid: 57015a99d4fd042e0a75451aa818369f, type: 3}
+  SmokebombSoundEffect: {fileID: 0}
 --- !u!82 &1388992699
 AudioSource:
   m_ObjectHideFlags: 0
